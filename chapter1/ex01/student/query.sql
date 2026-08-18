@@ -1,1 +1,1 @@
-SELECT order_id, order_qty, final_total FROM retail.orders;
+SELECT payment_id, customer_id, order_id, payment_type FROM retail.payments;
