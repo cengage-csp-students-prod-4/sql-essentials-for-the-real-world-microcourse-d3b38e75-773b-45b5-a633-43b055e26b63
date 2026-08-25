@@ -1,1 +1,1 @@
--- Write your query here
+SELECT*FROM software.subscriptions LIMIT 50;
