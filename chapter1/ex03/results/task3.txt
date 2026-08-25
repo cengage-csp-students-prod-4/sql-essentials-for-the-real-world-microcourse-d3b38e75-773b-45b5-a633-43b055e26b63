@@ -1,18 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Exercise #3 Test
-Reason: Expected:
-+-----------------------------------------------------+
-| (total_on_hand*1.00)/(total_on_hand+total_on_order) |
-+-----------------------------------------------------+
-|                      0.368421                       |
-+-----------------------------------------------------+
-Found:
-+--------------------------+
-| current_stock_percentage |
-+--------------------------+
-|         0.368421         |
-+--------------------------+
-Error : AssertionError - 
-Timestamp: 2026-08-25 06:32:30.871538
+Reason: The query returned the expected results.None
+Timestamp: 2026-08-25 06:34:28.381351
