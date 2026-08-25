@@ -1,1 +1,1 @@
-SELECT * FROM retail.inventory WHERE product_id = 21;
+SELECT product_id, total_on_hand, total_on_order, (total_on_hand+total_on_order) AS future_stock_level, ROUND((total_on_hand*100)/NULLIF(total_on_hand+total_on_order,0),2) AS current_stock_percentage FROM retail.inventory WHERE product_id = 21; 
