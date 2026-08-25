@@ -1,1 +1,1 @@
-SELECT plan_id,ROUND(price*1.00 / plan_length,2) AS daily_revenue FROM software.plans;
+SELECT* FROM retail.orders WHERE final_total<> (total-discount_amount+tax_amount);
