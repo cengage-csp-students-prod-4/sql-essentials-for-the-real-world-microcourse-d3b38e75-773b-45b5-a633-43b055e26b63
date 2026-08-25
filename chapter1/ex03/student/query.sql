@@ -1,1 +1,1 @@
-SELECT* FROM retail.orders WHERE final_total<> (total-discount_amount+tax_amount);
+SELECT * FROM retail.inventory WHERE product_id = 21;
