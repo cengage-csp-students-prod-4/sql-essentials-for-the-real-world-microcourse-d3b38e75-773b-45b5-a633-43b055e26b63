@@ -1,1 +1,1 @@
--- Write your query here
+SELECT plan_id, price, plan_length,ROUND(price*1.00 / plan_length,2) AS daily_revenue FROM software.plans;
