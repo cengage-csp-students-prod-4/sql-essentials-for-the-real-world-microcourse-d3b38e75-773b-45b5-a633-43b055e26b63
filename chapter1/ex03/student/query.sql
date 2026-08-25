@@ -1,1 +1,1 @@
-SELECT (total_on_hand*1.00)/(total_on_hand+total_on_order) AS current_stock_percentage FROM retail.inventory WHERE product_id = 21;
+SELECT (total_on_hand*1.00)/(total_on_hand+total_on_order) FROM retail.inventory WHERE product_id = 21;
