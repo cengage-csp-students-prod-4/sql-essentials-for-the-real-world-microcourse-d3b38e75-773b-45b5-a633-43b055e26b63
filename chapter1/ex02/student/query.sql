@@ -1,1 +1,1 @@
-SELECT*FROM software.subscriptions LIMIT 50;
+SELECT*FROM software.subscriptions WHERE status = 'cancelled'
