@@ -1,1 +1,1 @@
-SELECT product_id, sku, original_price, current_price,on_markdown, original_price - current_price AS discount_amount, ROUND ((original_price - current_price)/original_price,2) AS discount_pct FROM retail.products WHERE on_markdown=1;
+SELECT product_id, sku, original_price, current_price, on_markdown, original_price - current_price AS discount_amount, ROUND ((original_price - current_price)/original_price, 2) AS discount_pct, ROUND (((original_price-current_price) / original_price) * original_price, 2) AS discount_check FROM retail.products WHERE on_markdown=1;
